@@ -1,0 +1,28 @@
+.body {
+  padding: 0px 200px;
+  display: flex;
+  
+  .content-left {
+    width: 15%;
+    ul {
+      list-style: none;
+
+      li {
+        margin: 30px 0px;
+        cursor: pointer;
+      }
+
+      .solid-bottom {
+        border-bottom: solid 1px #E6E6E6;
+      }
+
+      & .active {
+        color: black;
+      }
+    }
+  }
+
+  .content-right {
+    width: 85%;
+  }
+}

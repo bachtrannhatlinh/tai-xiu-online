@@ -1,0 +1,19 @@
+.block-introduce-category {
+  background-color: #0000000D;
+  // width: 490px;
+  // height: 365px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 20px;
+
+  .col-one {
+    width: 50%;
+  }
+
+  .col-two {
+    width: 50%;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.block-introduce-game {
+  width: 490px;
+  margin-right: 20px;
+
+
+  .small-block {
+    margin-top: 30px;
+    display: flex;
+    img{
+      width: 90px;
+      height: 90px;
+    }
+
+
+    button {
+      width: 75px;
+      height: 28px;
+    }
+
+  }
+}

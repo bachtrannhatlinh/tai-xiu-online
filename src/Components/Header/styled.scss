@@ -1,0 +1,27 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF80;
+  padding: 0px 200px;
+  
+  .menu {
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin: 0px 30px;
+        cursor: pointer;
+      }
+      & .active {
+        color: white;
+        border-bottom: solid 1px white;
+      }
+
+      li:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
