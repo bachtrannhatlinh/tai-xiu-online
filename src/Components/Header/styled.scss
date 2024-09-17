@@ -1,26 +1,35 @@
 .header {
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: space-between;
-  color: #FFFFFF80;
-  padding: 0px 200px;
-  
-  .menu {
-    ul {
-      display: flex;
-      list-style: none;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
 
-      li {
-        margin: 0px 30px;
-        cursor: pointer;
-      }
-      & .active {
-        color: white;
-        border-bottom: solid 1px white;
-      }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 100;
 
-      li:last-child {
-        margin-right: 0;
+    .menu {
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          margin: 0px 30px;
+          cursor: pointer;
+        }
+
+        & .active {
+          color: white;
+          border-bottom: solid 1px white;
+        }
+
+        li:last-child {
+          margin-right: 0;
+        }
       }
     }
   }

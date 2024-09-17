@@ -97,7 +97,7 @@ function Body() {
             }
           </div>
         </section>
-        <section>
+        <section className='block-content-category'>
           <h2>Hottest Category</h2>
           <div className='d-flex justify-content-end'>
             <button>1</button>
